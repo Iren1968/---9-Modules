@@ -2,7 +2,10 @@ const calculateBonus = require('./Index');
 describe('Тестирование функции calculateBonus', () => {
   it('Расчет бонусов и суммы', () => {
     expect(calculateBonus(25, 25)).toBe(50);
-    expect(calculateBonus(10, 25)).toEqual(50);
+    expect(calculateBonus(26, 25)).toBe(51);
+    expect(calculateBonus(26, 25)).toEqual(51);
+    expect(calculateBonus(24, 25)).toBe(49);
+    expect(calculateBonus(10, 25)).toEqual(35);
   });
   it('Проверка рассчета на значение больше и меньше', () => {
     expect(calculateBonus(20, 40)).toBeGreaterThan(40);

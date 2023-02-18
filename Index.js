@@ -7,6 +7,6 @@ const calculateBonus = (a, b) => {
   return bonus; //возвращается значение переменной bonus, в данном случае бонус равен сумме a и b
 };
 
-console.log(calculateBonus(25, 15));
+//console.log(calculateBonus(25, 15));
 
 module.exports = calculateBonus;
