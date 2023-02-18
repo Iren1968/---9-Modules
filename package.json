@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "project for modules",
   "main": "index.js",
-  "scripts": {
-    "test": "jest --coverage"
-  },
+  "scripts": { "test": "jest --coverage"   
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Iren1968/test9.js.git"
@@ -26,6 +25,7 @@
     "@types/jest": "^29.4.0"
   },
   "devDependencies": {
+    "babel-plugin-istanbul": "^6.1.1",
     "jest": "^29.4.2"
   }
 }
